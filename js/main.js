@@ -1,0 +1,7 @@
+$('.carousel').carousel()
+
+
+
+  
+    
+ 

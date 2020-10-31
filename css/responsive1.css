@@ -1,0 +1,96 @@
+@media only screen and (max-width: 500px){
+    .header-area .main-menu .navbar,
+    .header-area .main-menu .navbar .navbar-brand,
+    .site-main .subscribe-us-area .subscribe .subscribe-title,
+    .site-main .subscribe-us-area .subscribe .subscribe-title p, h4{
+        padding: 2%;
+        margin: 0;
+    }
+
+    .site-intro .site-title h1{
+        font-size: 41px;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox > input{
+        width: 15rem;
+    }
+
+    .site-main > .services-area .services{
+        width: 15rem;
+    }
+
+    .site-main .subscribe-us-area > .subscribe{
+        width: 100%;
+        padding: 2%;
+        margin: 1rem auto;
+    }
+
+    
+}
+   
+
+@media only screen and (max-width: 792px){
+    .site-main .about-area .about-title h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+    
+    .edu .container .carousel-inner .container .text-container{
+        padding: 3rem 2rem;
+    }
+
+    .edu .container .carousel-inner .container .text-container p{
+        color: white;
+    }
+
+    .edu .container .carousel-inner .container img{
+        width: 100%;
+        position: absolute;
+        left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  filter: brightness(70%); 
+
+    }
+
+    .site-main .project-area .buttun-group button{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 40px;
+        font-family: var(-roboto);
+    }
+
+    .site-main .subscribe-us-area{
+        padding: 0;
+        margin: 0;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox{
+        width: 20rem;
+        margin: 5%;
+    }
+
+    .site-main .subscribe-us-area > .subscribe{
+        width: 100%;
+        padding: 2%;
+        margin: 1rem auto;
+    }
+}
+
+@media only screen and (max-width: 1910px){
+    .header-area .main-menu .navbar{
+        padding: 1rem;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    .site-main .brand-area,
+    .site-main .services-area .services-title,
+    .site-main .about-area{
+        padding: 3% 4%;
+    }
+}
